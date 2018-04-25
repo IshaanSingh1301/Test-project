@@ -16,7 +16,7 @@ class BST
 {
     public:
         void find(int, node **, node **);
-        void insert(node *,node *) ;
+        void insert(node *,node *) ; //isertion of children
         void del(int);
         void case_a(node *,node *);
         void case_b(node *,node *);
@@ -97,7 +97,7 @@ int main()
 }
 
 
-// Find Element in the Tree
+// Find Element in the Tree and print it
 void BST::find(int item, node **par, node **loc)
 {
     node *ptr, *ptrsave;
