@@ -354,7 +354,8 @@ void BST::display(node *ptr, int level)
         cout<<ptr->info;
         display(ptr->left, level+1);
     }
-} struct node
+}
+struct node
 {
     int k;
     struct node* next;
@@ -455,6 +456,7 @@ void dele ()
   st=st->next;
   delete ptr;
 return ;}
+// finish line
 
 
 
