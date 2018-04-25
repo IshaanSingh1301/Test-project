@@ -393,6 +393,8 @@ k++;
 visit[v]=0; visited[v]=1;
 }
 }
+
+///bfs
 #include<iostream>
 #include<conio.h>
 #include<stdlib.h>
@@ -434,6 +436,7 @@ k++;
 visit[v]=0; visited[v]=1;
 }
 }
+///dfs
 #include<iostream>
 #include<conio.h>
 #include<stdlib.h>
@@ -475,7 +478,5 @@ k++;
 visit[v]=0; visited[v]=1;
 }
 }
-///this is how bfs and dfs get inserted to bst
-
-
+/// this is the insertion of bfs and dfs in bst
 
