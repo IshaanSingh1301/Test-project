@@ -475,6 +475,7 @@ k++;
 visit[v]=0; visited[v]=1;
 }
 }
+///this is how bfs and dfs get inserted to bst
 
 
 
